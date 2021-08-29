@@ -1,0 +1,52 @@
+<html>
+
+<head>
+  <title>Realtime Image Identification</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.0.0/p5.js"></script>
+  <script src="https://unpkg.com/ml5@0.4.3/dist/ml5.min.js"></script>
+
+  <link rel="stylesheet" type="text/css" href="style.css">
+
+</head>
+
+<body background="https://lh3.googleusercontent.com/d_eLayNZhWZWCGrxeMWc1_zD01EWWvAO-yjsmVnw4QaCQKlEGyW1rYw_SlE4YtApK_SntS77u0Bjx16q4OBUSWkVI87al_LdmDsDUhlkayvk1Pe__Xa0x1rIoSRg4yIxwKdKIigc_hwApQ7da0KhgY-3xTgtl2QAuIIUI9qwnerkuHEPkgzXG0ZlMKwJKiMHAgSEfl_BgDAMb7R98z068c6hphG0TDAl1loB_tfIj6UEw66C-stEfL2L-lchDxLVdoG6l24RZ-bw4y862AzrAlQmx0XBdsunq8M28ZE5lw7CXqeJ0PAc3RMW5VOWWD-xeiRxZu7l_NbqcrxwAS-SVncWXIwoZOMjywztloEGlEvIA4Nsol3OALTuOhZOkGIGm9XvIbHu8F3NQJ1aAfg1DBSsQV6hge2EA2_h2djMIDUAjvPCIIrt2TcMOoF8b0xcyMZBXH2Mjy0fehOF-nU_NP5Unwo4pGOtaSB9IIja_wcm9JEX2-hrkm91TuszSD5WLl_uGU2ZAJOKqBBREf7ZAY7jU9qIQcNYARzvKyKCmlAQC4HKqsGiUrOLvCBk6f49ChldSoUsxna6o_f98qT5R6Ll_HiGLmQcIIUwb5cPzXecrap3On377iDQhjXGT9P4vfDIwY3HJ-7M3V22Bc_wMxEqqoPfHU-heCd3O6RUwKN01CDfzMtK69GD6PucrGg9g9aUKkmGNATvQGYnDQuAE0VV=w1356-h625-no?authuser=1">
+<center>
+  <h3>
+    <hr>
+    <center>
+      <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12 heading_div">
+        Model is trained on 
+        <br>
+          <div class="btn btn-warning heading_div2">
+          Father | Mother | Me | Brother
+          </div>
+        </div>
+    </center>
+    <br>
+  </h3>
+  <br><br>
+  
+  <p class="btn btn-warning result_para_tag">Object : 
+    <span id="result_object_name"></span> 
+  </p>
+  
+  <br><br>
+  <p class="btn btn-warning result_para_tag">Accuracy : 
+    <span id="result_object_accuracy"></span> 
+  </p>
+
+</center>
+<div class="copy_right_footer">
+  Developed by - Sashanth Sajith
+</div>
+
+<script src="main.js"></script>
+</body>
+
+</html>
+
